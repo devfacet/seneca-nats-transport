@@ -5,8 +5,8 @@
 Seneca NATS transport.
 
 [Seneca](http://senecajs.org/) is a microservices framework and [NATS](http://nats.io/) is 
-an open-source, high-performance, lightweight cloud messaging system. This transport library
-provides a publish-subscribe message distribution model.
+an open-source, high-performance, lightweight cloud messaging system. This library provides
+a publish-subscribe message distribution model.
 
 ### Installation
 
