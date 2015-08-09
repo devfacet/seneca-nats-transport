@@ -4,6 +4,6 @@ node_js:
   - "0.10"
   - "iojs"
 before_script:
-  - gem install nats
-  - which nats-server
-  - nats-server -v
+  - mkdir -p gnatsd
+  - wget https://github.com/nats-io/gnatsd/releases/download/v0.6.0/gnatsd-v0.6.0-linux-amd64.tar.gz -qO - | tar -zxvC gnatsd/
+  - gnatsd/.gnatsd
