@@ -40,8 +40,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "nats": "0.4.x",
-    "lodash": "3.10.1"
+    "nats": "0.4.x"
   },
   "devDependencies": {
     "chai": "3.2.x",
