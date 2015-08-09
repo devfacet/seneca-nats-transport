@@ -11,7 +11,6 @@ a publish-subscribe message distribution model.
 ### Installation
 
 ```
-npm install seneca
 npm install seneca-nats-transport
 ```
 
