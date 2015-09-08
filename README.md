@@ -16,7 +16,7 @@ npm install seneca-nats-transport
 
 ### Usage
 
-[gnatsd server](http://nats.io/download/) **must** be up and running.
+[gnatsd server](http://nats.io/download/) **should** be running.
 
 ```javascript
 // server.js
@@ -38,7 +38,7 @@ require('seneca')()
 
 *Run following commands*
 ```bash
-./gnatsd
+gnatsd
 node server.js
 node client.js
 ```
