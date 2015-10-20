@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.1.1 (2015-10-19)
+
+* Add `NATS_SERVERS` and `NATS_URL` env vars
+
 ### 1.1.0 (2015-10-19)
 
 * Add servers option for NATS
