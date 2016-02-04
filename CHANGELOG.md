@@ -1,5 +1,10 @@
 ## Changelog
 
+### 2.0.1 (2016-02-04)
+
+* Misc. updates
+* Update devDependencies
+
 ### 2.0.0 (2015-12-12)
 
 * Upgrade Nats to v0.5.x 
