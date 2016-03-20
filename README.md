@@ -51,8 +51,8 @@ For the full copyright and license information, please view the LICENSE.txt file
 [npm-url]: http://npmjs.org/package/seneca-nats-transport
 [npm-image]: https://badge.fury.io/js/seneca-nats-transport.svg
 
-[travis-url]: https://travis-ci.org/cmfatih/seneca-nats-transport
-[travis-image]: https://travis-ci.org/cmfatih/seneca-nats-transport.svg?branch=master
+[travis-url]: https://travis-ci.org/fatihcode/seneca-nats-transport
+[travis-image]: https://travis-ci.org/fatihcode/seneca-nats-transport.svg?branch=master
 
-[coverage-url]: https://coveralls.io/github/cmfatih/seneca-nats-transport?branch=master
-[coverage-image]: https://coveralls.io/repos/cmfatih/seneca-nats-transport/badge.svg?branch=master&service=github)
+[coverage-url]: https://coveralls.io/github/fatihcode/seneca-nats-transport?branch=master
+[coverage-image]: https://coveralls.io/repos/fatihcode/seneca-nats-transport/badge.svg?branch=master&service=github)

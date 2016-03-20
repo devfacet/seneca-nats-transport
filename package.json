@@ -12,19 +12,19 @@
     "subscribe",
     "microservices"
   ],
-  "homepage": "http://github.com/cmfatih/seneca-nats-transport",
+  "homepage": "http://github.com/fatihcode/seneca-nats-transport",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cmfatih/seneca-nats-transport.git"
+    "url": "https://github.com/fatihcode/seneca-nats-transport.git"
   },
   "bugs": {
-    "url": "http://github.com/cmfatih/seneca-nats-transport/issues"
+    "url": "http://github.com/fatihcode/seneca-nats-transport/issues"
   },
   "license": "MIT",
   "private": false,
   "author": {
-    "name": "cmfatih",
-    "url": "http://github.com/cmfatih"
+    "name": "fatih",
+    "url": "http://github.com/fatihcode"
   },
   "contributors": [],
   "main": "./index.js",
