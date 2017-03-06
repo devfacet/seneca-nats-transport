@@ -7,11 +7,9 @@ node_js:
   - "4"
   - "6"
 
-env:
-  - GNATSD_VERSION=0.9.6
-
 before_script:
   - mkdir -p gnatsd
+  - export GNATSD_VERSION=0.9.6
   - wget https://github.com/nats-io/gnatsd/releases/download/v${GNATSD_VERSION}/gnatsd-v${GNATSD_VERSION}-linux-amd64.zip -O gnatsd.zip; unzip gnatsd.zip
   - gnatsd-v${GNATSD_VERSION}-linux-amd64/gnatsd &
 
