@@ -36,8 +36,17 @@ require('seneca')()
   .act({role: 'foo', cmd: 'bar', arg1: 1, arg2: 2}, console.log);
 ```
 
+```javascript
+// nats.js
+
+require('nats').connect().subscribe('*', function(msg) {
+  console.log(msg);
+});
+```
+
 ```bash
 gnatsd
+node nats.js
 node server.js
 node client.js
 ```
