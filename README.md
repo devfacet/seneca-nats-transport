@@ -1,4 +1,4 @@
-## seneca-nats-transport
+# seneca-nats-transport
 
 [![NPM][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage][coverage-image]][coverage-url]
 
@@ -8,13 +8,13 @@ Seneca NATS transport.
 an open-source, high-performance, lightweight cloud messaging system. This library provides
 a publish-subscribe message distribution model.
 
-### Installation
+## Installation
 
-```
+```bash
 npm install seneca-nats-transport
 ```
 
-### Usage
+## Usage
 
 [gnatsd server](http://nats.io/download/) **should** be running.
 
@@ -36,14 +36,13 @@ require('seneca')()
   .act({role: 'foo', cmd: 'bar', arg1: 1, arg2: 2}, console.log);
 ```
 
-*Run following commands*
 ```bash
 gnatsd
 node server.js
 node client.js
 ```
 
-### License
+## License
 
 Licensed under The MIT License (MIT)  
 For the full copyright and license information, please view the LICENSE.txt file.
@@ -51,8 +50,8 @@ For the full copyright and license information, please view the LICENSE.txt file
 [npm-url]: http://npmjs.org/package/seneca-nats-transport
 [npm-image]: https://badge.fury.io/js/seneca-nats-transport.svg
 
-[travis-url]: https://travis-ci.org/fatihcode/seneca-nats-transport
-[travis-image]: https://travis-ci.org/fatihcode/seneca-nats-transport.svg?branch=master
+[travis-url]: https://travis-ci.org/devfacet/seneca-nats-transport
+[travis-image]: https://travis-ci.org/devfacet/seneca-nats-transport.svg?branch=master
 
-[coverage-url]: https://coveralls.io/github/fatihcode/seneca-nats-transport?branch=master
-[coverage-image]: https://coveralls.io/repos/github/fatihcode/seneca-nats-transport/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/devfacet/seneca-nats-transport?branch=master
+[coverage-image]: https://coveralls.io/repos/github/devfacet/seneca-nats-transport/badge.svg?branch=master
