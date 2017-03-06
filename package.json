@@ -30,7 +30,7 @@
   "license": "MIT",
   "homepage": "http://github.com/devfacet/seneca-nats-transport",
   "dependencies": {
-    "nats": "0.5.x"
+    "nats": "0.7.x"
   },
   "devDependencies": {
     "chai": "3.5.x",

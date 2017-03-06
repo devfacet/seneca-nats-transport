@@ -9,7 +9,7 @@ node_js:
 
 before_script:
   - mkdir -p gnatsd
-  - wget https://github.com/nats-io/gnatsd/releases/download/v0.6.8/gnatsd-v0.6.8-linux-amd64.tar.gz -qO - | tar -zxvC gnatsd/
+  - wget https://github.com/nats-io/gnatsd/releases/download/v0.9.6/gnatsd-v0.9.6-linux-amd64.zip -qO - | tar -zxv --strip-components=1 -C gnatsd/
   - ./gnatsd/gnatsd &
 
 after_success:
