@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.3 (2017-03-05)
+
+- Upgrade NATS to v0.7.x
+- Update travis.yml (gnatsd v0.9.6)
+- Maintenance
+
 ## 2.0.2 (2016-03-20)
 
 - Maintenance
@@ -11,7 +17,7 @@
 
 ## 2.0.0 (2015-12-12)
 
-- Upgrade Nats to v0.5.x 
+- Upgrade NATS to v0.5.x
 - Support for Seneca v0.8.x
 - Remove Node v0.10 support
 - Add Coveralls integration
